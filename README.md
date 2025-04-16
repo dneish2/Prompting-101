@@ -15,7 +15,7 @@ This repo includes the full [**Prompting Guide**](./prompting.md), which covers:
 - Guidance for advanced users: devs, architects, and prompt engineers
 - Best practices for precision, clarity, and output control
 
-The guide breaks down common AI tasks into reusable building blocks so you can go from fuzzy idea to crystal-clear prompt — fast.
+The guide breaks down common AI tasks into reusable building blocks so you can go from fuzzy idea to crystal-clear prompt.
 
 ---
 
