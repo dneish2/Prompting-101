@@ -1,7 +1,7 @@
 ## 1. High‑Level Conceptual Framework
 ### 1.1 The Neish Prompting Model
 
-> *“If you can’t explain it simply, you don’t understand it well enough.”*
+> *“If you can’t explain it simply, you don’t understand it well enough.”* - Albert Einstein
 
 **Why Prompting Matters**
 Prompting is both an art and a science: a well‑crafted prompt unlocks the full potential of AI assistants, guiding them to deliver precise, context‑aware, and actionable output.
