@@ -95,7 +95,7 @@ This visual map shows the path you will take as you work through this repository
 4. **Iterate relentlessly:** every prompt you refine sharpens your strategic thinking.
 
 This isn't passive reading.  
-**It’s active training for strategic clarity.**
+**It’s active training for outcome clarity.**
 
 ---
 
