@@ -35,7 +35,10 @@ Craft prompts that generate or troubleshoot code with precision. Clearly specify
 | Example # | Context                             | Task Description                                         | Expected Output                        |
 |-----------|-------------------------------------|----------------------------------------------------------|----------------------------------------|
 | 1         | Python 3.9, standard library only   | Write a recursive function to compute factorial          | `factorial(5)` returns `120`           |
-| *Add more rows as needed...* | | | |
+| 2         | JavaScript ES6                      | Create a function to debounce another function           | Function delays execution until idle   |
+| 3         | Rust 1.70                           | Implement a thread-safe counter using Mutex              | Counter that can be shared across threads safely |
+| 4         | C# with Entity Framework            | Retrieve top 5 most expensive products from database     | LINQ query with descending order and `Take(5)`     |
+| 5         | Python, Pandas                      | Merge two DataFrames on a common column with left join   | DataFrame with merged rows using `merge(..., how='left')` |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Produces clear, syntactically correct code; ideal for debugging.  
@@ -60,7 +63,10 @@ Generate empathetic, professional responses for customer inquiries. Define conte
 | Example # | Context                                             | Task Description                                      | Expected Output Description                                  |
 |-----------|-----------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------------|
 | 1         | Customer has connectivity issues with a smartphone  | Draft an empathetic email with troubleshooting steps  | Greeting, problem acknowledgment, step-by-step instructions, and a friendly close |
-| *Add more rows as needed...* | | | |
+| 2         | Refund requested after product arrived damaged      | Write a refund confirmation with apology              | Confirmation message, apology, and refund timeline details  |
+| 3         | Customer complains about delayed shipping           | Provide estimated shipping time and reassurance       | Status update with expected delivery date and empathy        |
+| 4         | Subscription cancellation request                   | Confirm cancellation and offer alternatives           | Confirmation message with optional retention offer           |
+| 5         | FAQ clarification request from elderly customer     | Write a simplified explanation with supportive tone   | Clear bullet point explanation and optional phone support offer |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Ensures a consistent tone and timely response.  
@@ -85,7 +91,10 @@ Create prompts for analytical and clear financial insights. Focus on precision, 
 | Example # | Context                                                   | Task Description                                               | Expected Output Description                                       |
 |-----------|-----------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
 | 1         | Mid-cap tech company in a volatile market                 | Provide a risk analysis covering market, operational, and financial risks  | Bullet list of risks with brief explanations; include disclaimer |
-| *Add more rows as needed...* | | | |
+| 2         | High-yield bond portfolio in rising interest rate climate | Summarize exposure and recommend hedging strategy              | Exposure assessment and strategy suggestions in bullets           |
+| 3         | Personal investment for a 35-year-old professional        | Recommend asset allocation with moderate risk tolerance        | Portfolio mix percentages and brief rationale                     |
+| 4         | 10-K filing for a biotech startup                         | Highlight financial red flags and cash flow status             | Summary table with flagged items                                 |
+| 5         | ESG score evaluation for Fortune 500 firm                 | Provide report on environmental and governance factors         | ESG score interpretation with key initiative breakdown            |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Standardizes complex financial queries.  
@@ -110,7 +119,10 @@ Generate precise legal content using clear and formal language. Ensure adherence
 | Example # | Context                                               | Task Description                                                | Expected Output Description                                   |
 |-----------|-------------------------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------|
 | 1         | Confidentiality clause in a contract (New York law)   | Summarize key obligations and list any ambiguous language       | A concise summary followed by bullet-pointed obligations      |
-| *Add more rows as needed...* | | | |
+| 2         | GDPR privacy policy for a SaaS product                | Generate a compliant data retention paragraph                   | Formal policy statement referencing specific articles          |
+| 3         | Employee handbook for California office               | Draft anti-harassment section aligned with state law            | Clearly defined policy in paragraph format                    |
+| 4         | Non-compete clause review for Texas jurisdiction      | Identify enforceability and potential issues                    | Legal bullet summary with risk annotations                    |
+| 5         | NDA template for external consultants                 | Fill in missing definitions and adjust for Australian law        | Completed template with clause-level comments                 |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Enhances clarity and consistency in legal documents.  
@@ -135,7 +147,10 @@ Design prompts to generate creative, engaging content that aligns with brand mes
 | Example # | Context                                               | Task Description                                      | Expected Output Description                          |
 |-----------|-------------------------------------------------------|-------------------------------------------------------|------------------------------------------------------|
 | 1         | New eco-friendly water bottle for millennials         | Create ad copy emphasizing sustainability              | Headline, engaging body text, and a clear call-to-action |
-| *Add more rows as needed...* | | | |
+| 2         | Launch of AI writing assistant targeting startups     | Write a product launch email                          | Engaging subject line, intro paragraph, and CTA       |
+| 3         | Rebranding for a luxury skincare line                 | Draft tagline options reflecting premium quality       | 3 tagline ideas with brief tone explanation           |
+| 4         | Social media promo for national coffee day            | Design a tweet + Instagram caption                     | Short, witty copy with hashtags and emoji use         |
+| 5         | Landing page for an online course about UX design     | Write the hero section copy                           | Headline, subheadline, and value props bullets        |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Aligns creative outputs with brand identity and market trends.  
@@ -159,8 +174,11 @@ Generate educational and clinical summaries safely. Use clear language and inclu
 
 | Example # | Context                                               | Task Description                                          | Expected Output Description                                         |
 |-----------|-------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------------------|
-| 1         | 45-year-old with chest pain and shortness of breath     | Summarize clinical scenario and list potential causes      | Bullet points for symptoms, possible diagnoses, and a disclaimer    |
-| *Add more rows as needed...* | | | |
+| 1         | 45-year-old with chest pain and shortness of breath   | Summarize clinical scenario and list potential causes      | Bullet points for symptoms, possible diagnoses, and a disclaimer    |
+| 2         | Pediatric patient with fever and rash                 | Create differential diagnosis list                         | Structured bullet list with disclaimer                              |
+| 3         | Senior with dizziness and blurred vision              | Generate an ER triage summary                             | SOAP-style summary with observations and next steps                 |
+| 4         | Diabetic patient follow-up summary                    | Draft a patient-friendly visit summary                     | Plain-language explanation of current status and care plan          |
+| 5         | Request for layman-friendly explanation of hypertension | Translate a medical article into 6th-grade reading level  | Simplified summary with analogies and definitions                   |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Provides a structured format for clinical summaries and educational content.  
@@ -185,7 +203,10 @@ Produce structured educational content that is clear, engaging, and tailored to 
 | Example # | Context                                               | Task Description                                             | Expected Output Description                                 |
 |-----------|-------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|
 | 1         | High school algebra class on quadratic equations       | Explain quadratic equations with examples and practice problems | An introductory explanation, detailed steps, and sample problems |
-| *Add more rows as needed...* | | | |
+| 2         | Corporate onboarding for new engineering hires         | Create a technical intro session plan                        | Agenda, modules, time blocks, and key concepts summary       |
+| 3         | College biology intro class                            | Describe photosynthesis using visuals and analogies          | Definition, analogy-based breakdown, and a diagram caption   |
+| 4         | Early childhood numeracy lesson                        | Teach counting with rhyme-based activities                   | Story prompt, rhyme activity, and interactive task idea      |
+| 5         | Online course for adult learners on time management    | Generate lesson outline with tips and case study             | Modular structure with real-world examples                   |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Enhances learning through structured and interactive content.  
@@ -210,12 +231,14 @@ Craft prompts to streamline internal communications with clarity, empathy, and c
 | Example # | Context                                               | Task Description                                               | Expected Output Description                                  |
 |-----------|-------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------|
 | 1         | New remote work policy announcement                    | Draft an internal email with a friendly tone and clear instructions  | Email with greeting, detailed policy changes, and actionable next steps |
-| *Add more rows as needed...* | | | |
+| 2         | Quarterly performance review period                    | Write a reminder to managers with evaluation links             | Email with instructions, links, and due date                 |
+| 3         | Mental health awareness month                          | Create a Slack message with supportive resources               | Concise message with empathy and helpful links               |
+| 4         | Office relocation notice                               | Draft an FAQ for employees about logistics                     | FAQ format with address, timeline, and commuting options     |
+| 5         | DEI (Diversity, Equity, Inclusion) training launch     | Write announcement with mission alignment statement            | Email or post with schedule and signup form                  |
 
 **Benefits & Pitfalls:**  
 - **Benefits:** Promotes clear and empathetic communication within the organization.  
 - **Pitfalls:** Avoid overly standardized language; include opportunities for personalization.
-
 ---
 
 ## Quick Reference Cheat Sheet
