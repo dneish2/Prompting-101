@@ -1,3 +1,5 @@
+![Cover](masteryMap.png)
+
 ---
 > ## ✨ The Neish Principle
 > 
@@ -6,22 +8,8 @@
 > — David Neish
 ---
 
-![Cover](masteryMap.png)
-
-# Prompting Mastery Hub: Unlock Strategic AI Collaboration
-
-Welcome to the **Prompting Mastery Hub** a curated knowledge base to transform how you think, design, and deploy prompts across your workflows.
-
-This is not just about asking better questions.  
-It’s about sharpening your ability to communicate with clarity, precision, and strategic intent, skills that are essential to working with AI as a true collaborator, not just a tool.
-
-If you navigate and apply these frameworks intentionally, you will elevate from basic operator to *prompting strategist,* someone who consistently extracts high-leverage results from AI systems.
-
----
-
 ## Why This Repository Exists
 
-Most prompt engineering guides stop at surface-level tips.  
 This repository is built to go deeper, offering a **clear path to practical mastery**, grounded in a **human-first**, **evidence-based** approach.
 
 You’ll find:
@@ -36,7 +24,7 @@ Whether you're a technical builder, business operator, or creative professional,
 
 ## Repository Map and Learning Path
 
-Each guide represents a major stage in your prompting evolution.
+Every guide builds a layer in your progression toward prompt mastery.
 
 ### 1. [PromptingStyles.md — Strategic Guide to Prompting Techniques](./PromptingStyles.md)
 
