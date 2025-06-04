@@ -161,7 +161,7 @@ Each section below outlines a prompting technique, complete with a clear definit
   ### 1.10 Analogical Prompting
 
 📌 **Title and Definition**  
-**Analogical Prompting** enhances reasoning by having the model first generate relevant exemplars — similar past problems and solutions — before solving the target problem. This mimics how humans recall prior experiences to tackle new challenges.
+**Analogical Prompting** enhances reasoning by having the model first generate relevant exemplars, similar past problems and solutions before solving the target problem. This mimics how humans recall prior experiences to tackle new challenges.
 
 🛠 **Example Prompt**  
 *"Before solving this math problem, generate two relevant exemplar problems and solve them first. Then use that thinking to solve the original problem."*
@@ -233,7 +233,3 @@ Below is a comparative overview of the discussed prompting strategies to aid in 
 
 - **Additional Resources:**  
   Regularly review leading AI research blogs, conference proceedings, and internal testing reports to stay abreast of emerging techniques and best practices.
-
----
-
-*This guide is intended to serve as a living document—update it regularly as new research and innovations emerge in the field of prompt engineering for large language models.*
