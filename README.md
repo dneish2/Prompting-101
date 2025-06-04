@@ -6,6 +6,8 @@
 > — David Neish
 ---
 
+![Cover](masteryMap.png)
+
 # Prompting Mastery Hub: Unlock Strategic AI Collaboration
 
 Welcome to the **Prompting Mastery Hub** a curated knowledge base to transform how you think, design, and deploy prompts across your workflows.
